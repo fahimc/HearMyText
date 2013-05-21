@@ -36,6 +36,9 @@ public class PhraseList extends ArrayAdapter {
     {
         View v = convertView;
         ViewHolder holder;
+        String item = items[position];
+        String eng  = item;
+        String ben="";
         if (v == null) {
            LayoutInflater vi =
                    (LayoutInflater)mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -43,28 +46,27 @@ public class PhraseList extends ArrayAdapter {
             holder = new ViewHolder();
             holder.item1 =  (TextView) v.findViewById(R.id.big);
             holder.item2 =  (TextView) v.findViewById(R.id.small);
+            Typeface type = Typeface.createFromAsset(mContext.getAssets(), "fonts/Siyamrupali.ttf");
+            holder.item2.setTypeface(type);
             v.setTag(holder);
         }
         else
         {
             holder=(ViewHolder)v.getTag();
-            String item = items[position];
-            String eng  = item;
-            String ben="";
-            if (item.contains("-")) {
-                String[] arr =item.split("-");
-                eng =arr[0];
-               if(arr.length>0)ben = arr[1];
-            }
+
+
 
           //
-            holder.item1.setText(eng);
-            Typeface type = Typeface.createFromAsset(mContext.getAssets(), "fonts/kalpurush ANSI.ttf");
-            holder.item2.setTypeface(type);
-            holder.item2.setText(ben);
+
         }
+        if (item.contains("-")) {
+            String[] arr =item.split("-");
+            eng =arr[0];
+            if(arr.length>0)ben = arr[1];
+        }
+        holder.item1.setText(eng);
 
-
+        holder.item2.setText(ben);
 
 
 

@@ -33,12 +33,13 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
         sendButton = (Button) findViewById(R.id.button);
         clearButton = (Button) findViewById(R.id.clearButton);
 
-        String[] items = { "Hello হ্যালো", "How are you?", "Call me", "Where are you?", "I'm Home", "come", "you", "ok","what", "time", "go","shopping","no","yes","please","thank you","happy birthday","good bye","i don't know","problem","don't","i" };
+        String[] items = { "Hello - হ্যালো", "How are you? - আপনি কেমন আছেন", "Call me - আমাকে ফোন", "Where are you? - আপনি কোথায়", "I'm Home - আমি বাড়িতে আছি", "come - আসা", "you - আপনি", "ok - ঠিক আছে","what - কি", "time - সময়", "go - যান","shopping - কেনাকাটা","no - কোন","yes - হ্যাঁ","please - দয়া করে","thank you - তোমাকে ধন্যবাদ","happy birthday - শুভ জন্মদিন","goodbye - বিদায়","i don't know - আমি জানি না","problem - সমস্যা","don't - না","i - তোমার দর্শন লগ করা","me - আমার সম্পর্কে" };
 
         PhraseList adapter = new PhraseList(this,
                 android.R.layout.simple_list_item_1, items);
 
             listView1.setAdapter(adapter);
+
         listView1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
@@ -46,11 +47,17 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
 
                 Object o = listView1.getItemAtPosition(position);
                 String msg = textbox.getText().toString();
-                textbox.setText(msg+" "+o.toString());
+                String newWord = o.toString();
+                if (newWord.contains("-")) {
+                    String[] arr =newWord.split("-");
+                    newWord =arr[0];
+                }
+                textbox.setText(msg+" "+newWord);
                 speakOut();
 
             }
         });
+
         clearButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 textbox.setText("");
@@ -77,6 +84,7 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
 
             }
         });
+
     }
     private void speakOut() {
 
