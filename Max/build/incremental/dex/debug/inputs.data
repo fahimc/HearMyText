@@ -1,18 +1,20 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1369145240747 422 54e65a7d79f4554f5312ce221925202ff9b77621 C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\build\classes\debug\com\example\max\R$style.class
+1369152600443 445 4e72d270b43a1346b4b3436e3a5a0a2e85761ea2 C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\build\classes\debug\com\example\max\PhraseList$ViewHolder.class
+1369152868018 422 bc6d4fd82b039d54685ca9578d860b5ebf56d953 C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\build\classes\debug\com\example\max\R$style.class
 1369066810613 339 324b8d36d1dd5a912a1a989c71bc4dd0c4fc62d6 C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\build\classes\debug\com\example\max\BuildConfig.class
-1369145240753 647 5c773a0bff7a5c31d453be6d7c78b3eab93c12ee C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\build\classes\debug\com\example\max\R.class
+1369152868023 647 204f2b9c90619eabdc2842407538a9e1b4863dee C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\build\classes\debug\com\example\max\R.class
 1369066810577 452 d767adbe5aa6828ceaafb0075a3e4630c704c945 C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\build\classes\debug\com\example\max\R$dimen.class
-1369145240729 394 1fc422e019b2711e24a87397b3e192f37599bc3c C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\build\classes\debug\com\example\max\R$layout.class
+1369152868005 427 7db658e8673a2645761c73358b0f92b6a26b7498 C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\build\classes\debug\com\example\max\R$layout.class
 1369066810583 398 1670696a121cb01effe1e31650e2dc496a134e08 C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\build\classes\debug\com\example\max\R$drawable.class
+1369152868010 379 1da91a1a00c07c5045b4e668d82b9469139a9390 C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\build\classes\debug\com\example\max\R$menu.class
 1369144000385 934 99f958b04cbabdcf525dbcc9e5a409e1fe08a831 C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\build\classes\debug\com\example\max\MainActivity$2.class
-1369145240734 379 69604479d45ceb2d823723b9c07633ca0ebaaed5 C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\build\classes\debug\com\example\max\R$menu.class
 1369144061660 1872 9ca84784963da2f214390d0e5f4a855e363ce49d C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\build\classes\debug\com\example\max\MainActivity$3.class
 1369066722028 484258 bd6479f5dd592790607e0504e66e0f31c2b4d308 C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\libs\android-support-v4.jar
-1369145240723 549 99b71faaf588c6b70a09f15f8b196ba3e937a2e6 C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\build\classes\debug\com\example\max\R$id.class
-1369145240740 463 91f6e660695f8b0dfc7bb30714636bc6483a29d5 C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\build\classes\debug\com\example\max\R$string.class
+1369152868001 605 ad366fd75207f8ba3d6d1c6891dd3228d90e2cdb C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\build\classes\debug\com\example\max\R$id.class
+1369152868014 463 1b9599bbcd2af2a900d05d79d528c7f0be28248b C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\build\classes\debug\com\example\max\R$string.class
 1369066810573 331 07df4e4f4ad8282e4a73760da9ec91a66ab08299 C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\build\classes\debug\com\example\max\R$attr.class
+1369153521814 2598 4414bbb92dc1b0d3cb2b686091e26a3981f2be49 C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\build\classes\debug\com\example\max\PhraseList.class
 1369144000379 1782 354a43389d1962f8532d7f4acbefcf09670aa977 C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\build\classes\debug\com\example\max\MainActivity$1.class
-1369145429097 3930 c6627171f60d0dd879337fe1ba841f6a2e3f1dd3 C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\build\classes\debug\com\example\max\MainActivity.class
+1369150051690 3872 9f309532b18a9c7bec4425be7f8f14e64a9ac3fc C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\build\classes\debug\com\example\max\MainActivity.class

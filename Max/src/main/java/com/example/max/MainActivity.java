@@ -33,9 +33,9 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
         sendButton = (Button) findViewById(R.id.button);
         clearButton = (Button) findViewById(R.id.clearButton);
 
-        String[] items = { "Hello", "How are you?", "Call me", "Where are you?", "I'm Home", "come", "you", "ok","what", "time", "go","shopping","no","yes","please","thank you","happy birthday","good bye","i don't know","problem","don't","i" };
+        String[] items = { "Hello হ্যালো", "How are you?", "Call me", "Where are you?", "I'm Home", "come", "you", "ok","what", "time", "go","shopping","no","yes","please","thank you","happy birthday","good bye","i don't know","problem","don't","i" };
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
+        PhraseList adapter = new PhraseList(this,
                 android.R.layout.simple_list_item_1, items);
 
             listView1.setAdapter(adapter);

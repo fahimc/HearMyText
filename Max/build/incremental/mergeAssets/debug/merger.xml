@@ -2,7 +2,11 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\src\main\assets" />
+        <source path="C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\src\main\assets" >
+            <file
+                name="fonts/kalpurush ANSI.ttf"
+                path="C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\src\main\assets\fonts\kalpurush ANSI.ttf" />
+        </source>
     </dataSet>
     <dataSet config="debug" >
         <source path="C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\src\debug\assets" />

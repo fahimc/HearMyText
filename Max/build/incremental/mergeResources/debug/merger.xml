@@ -104,6 +104,11 @@
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
+            <file
+                name="grid_item"
+                path="C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\src\main\res\layout\grid_item.xml"
+                qualifiers=""
+                type="layout" />
         </source>
         <source path="C:\Users\fahim.chowdhury\AndroidStudioProjects\Max\Max\build\res\rs\debug" />
     </dataSet>
